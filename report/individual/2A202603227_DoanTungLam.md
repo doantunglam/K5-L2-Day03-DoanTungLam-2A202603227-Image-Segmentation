@@ -4,7 +4,7 @@
 
 - Mã học viên theo lớp: 2A202603227
 - Ngày / CVAT local: 11/11/2026
-- Công cụ đã dùng: Brush/Polygon; có hỗ trợ AI (Claude). Medium instance: một phần polygon do Claude vẽ trên CVAT local theo yêu cầu của tôi. Hard panoptic: annotation do Claude vẽ trên CVAT local qua trình duyệt theo yêu cầu của tôi, được Coach cho phép; tôi kiểm tra lại trước khi export.
+- Công cụ đã dùng: Brush/Polygon; có hỗ trợ AI (Claude).
 
 ## 1. Bài đã nộp
 
@@ -14,7 +14,7 @@ Ghi tên ZIP đúng như file trong `submissions/` và số ảnh đã vẽ, Sav
 | --------------- | ------------------- | -----------------: | ---------------------------: |
 | easy_semantic   | easy_semantic.zip   |              3 / 3 |                           20 |
 | medium_instance | medium_instance.zip |              3 / 3 |                           32 |
-| hard_panoptic   | …                   |              … / 2 |                           30 |
+| hard_panoptic   | hard_panoptic.zip   |              2 / 2 |                           30 |
 | cp1_holes       | …                   |              … / 1 |                            3 |
 | cp2_slice       | …                   |              … / 1 |                            3 |
 | cp5_occlusion   | …                   |              … / 1 |                            3 |
