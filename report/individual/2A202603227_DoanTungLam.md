@@ -4,7 +4,7 @@
 
 - Mã học viên theo lớp: 2A202603227
 - Ngày / CVAT local: 11/11/2026
-- Công cụ đã dùng: Brush/Polygon; có hỗ trợ AI (Claude). Medium instance: một phần polygon do Claude vẽ trên CVAT local theo yêu cầu của tôi. Hard panoptic và các checkpoint: annotation do Claude vẽ trên CVAT local qua trình duyệt theo yêu cầu của tôi, được Coach cho phép; tôi kiểm tra lại trước khi export.
+- Công cụ đã dùng: Brush/Polygon; có hỗ trợ AI (Claude)
 
 ## 1. Bài đã nộp
 
