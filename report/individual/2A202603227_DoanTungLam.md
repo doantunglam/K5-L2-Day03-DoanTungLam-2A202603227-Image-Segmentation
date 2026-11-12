@@ -30,7 +30,7 @@ Nếu export lỗi, ghi task, dữ liệu đã Save đến đâu và lỗi đã 
 Chọn object đầu tiên bạn tự vẽ ở `medium_instance`, trước khi xem bất kỳ đề xuất tự động nào cho object đó. Ghi ảnh/vị trí đủ để tìm lại; “quy tắc biên” là lý do bạn chọn hoặc dừng mask ở ranh đó.
 
 - Ảnh, vị trí và object Medium đầu tiên tự vẽ: Ảnh 1 (`000000181542.jpg`), chiếc xe máy ở góc dưới bên phải, là xe gần camera nhất, bánh sau lớn và hơi mờ do chuyển động. Được vẽ bằng công cụ Brush (object #5, class `motorcycle`)
-- Class và quy tắc dùng để chọn biên: \*\* Class `motorcycle`. Tô theo mép nhìn thấy của thân xe và bánh trước. Dừng mask ở chỗ chân và thân người lái đè lên xe, vì phần bị che đó thuộc class `person`, không thuộc `motorcycle`. Mỗi xe là một instance riêng, nên không gộp xe này với chiếc xe phía sau
+- Class và quy tắc dùng để chọn biên: Class `motorcycle`. Tô theo mép nhìn thấy của thân xe và bánh trước. Dừng mask ở chỗ chân và thân người lái đè lên xe, vì phần bị che đó thuộc class `person`, không thuộc `motorcycle`. Mỗi xe là một instance riêng, nên không gộp xe này với chiếc xe phía sau
 - Nếu dùng gợi ý sau đó: vùng gợi ý sai/đúng, hành động sửa/giữ và lý do: không dùng
 - Nếu không dùng gợi ý: ghi “không dùng”; vẫn giải thích một quyết định gán nhãn của mình.
 
@@ -38,11 +38,11 @@ Chọn object đầu tiên bạn tự vẽ ở `medium_instance`, trước khi x
 
 Chọn một lỗi **có thật** trong bài. Nếu công cụ lỗi khiến bạn chưa sửa được, ghi rõ đã thử gì và cần coach hỗ trợ gì; không ghi “đã sửa” khi chưa sửa.
 
-- Task/ảnh/vùng: …
-- Lỗi thuộc loại: sai lớp / thiếu-thừa vật / gộp-tách / biên / phủ vùng / khác: …
-- Bằng chứng tôi nhìn thấy: …
-- Quy tắc và hành động sửa: …
-- Sau sửa đã Save và export lại chưa? …
+- Task/ảnh/vùng: `medium_instance`, ảnh 1 (`000000181542.jpg`), nhóm xe máy ở giữa và bên trái ảnh, ngay dưới các người lái xe
+- Lỗi thuộc loại: Thiếu vật (một xe máy có trong ảnh nhưng chưa có polygon).
+- Bằng chứng tôi nhìn thấy: Khi vẽ xong, đối chiếu danh sách object ở bảng bên phải với ảnh. Trong ảnh có 5 chiếc xe máy, nhưng danh sách chỉ có 4 object `motorcycle`
+- Quy tắc và hành động sửa: chưa sửa
+- Sau sửa đã Save và export lại chưa? chưa sửa
 
 Nếu bạn **đã xem Summary tự đánh giá trên GitHub Actions hoặc tự chạy script**, ghi ngắn một kết quả liên quan lỗi vừa sửa (ví dụ task, metric trước/sau nếu có): … / chưa có điểm. Scorecard ba tier tối đa **82**, không phải điểm cuối trên 100. Không tự ghi PASS/top 3/bonus; người phụ trách xác nhận theo tiêu chí lớp. Không đưa file ground truth vào fork.
 
